@@ -45,13 +45,17 @@ Things I want to do in the future:
 | Battery/wiring | AITRIP ESP32 30-pin USB-C (3-pack + expansion boards) | Microcontrollers for mount + controller (ESP-NOW link) | $20.00 | [Amazon](https://www.amazon.com/dp/B0B82CKB1K) |
 | Battery/wiring | Anker Nano Power Bank 10000mAh 30W | Portable power source for the mount | $30.00 | [Amazon](https://www.amazon.com/Anker-Portable-Charger-Compatible-MacBook/dp/B0C9CJKCH3) |
 | Battery/wiring | ACEIRMC ZY12PDN PD Trigger (2-pack screw terminals) | Pulls fixed 12V from the bank for the stepper rail | $10.00 | [Amazon](https://www.amazon.com/dp/B0CNVQMP6C) |
+| Prototyping | ELEGOO 830-Point Solderless Breadboard (3 pcs) | Solderless prototyping of control/trigger circuits | $8.99 | [Amazon](https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G) |
+| Prototyping | ELEGOO 120pc Dupont Jumper Wires (M/M + M/F + F/F) | Breadboard interconnects in all three pin genders | $6.99 | [Amazon](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) |
+| Camera trigger | NOYITO PC817 1-Channel Optocoupler Module (screw terminals; 2-pack) | Isolated shutter signal, no electrical connection to the borrowed camera | $7.99 | [Amazon](https://www.amazon.com/NOYITO-1-Channel-Optocoupler-Optoelectronic-Anti-Interference/dp/B0B537T73S) |
+| Camera trigger | 2.5mm TRS Male to 3-Pole Screw Terminal Connector | Plugs into S5ii remote port for shutter/record (verify pinout before wiring) | $8.99 | [Amazon](https://www.amazon.com/CablesOnline-3-Screw-Terminal-Connectors-PL-CN22-5/dp/B01J4JLP6K) |
+| Power/filtering | ALLECIN 24-Value Electrolytic Capacitor Assortment Kit | Incl. 100uF/220uF/470uF — one cap across each driver VM absorbs spikes | $12.99 | [Amazon](https://www.amazon.com/ALLECIN-Electrolytic-Capacitor-Assortment-Kit/dp/B0C1VBXCQM) |
+| Control input | 8BitDo SN30 Pro Bluetooth Gamepad | Bluepad32-compatible name-brand controller for the gamepad path | $44.99 | [Amazon](https://www.amazon.com/Bluetooth-Controller-Compatible-Raspberry-Gaming-Console/dp/B0CSP6TTJJ) |
 | Filament | Black PETG Filament (1kg spool) | Structural printed parts (brackets, cradle, column) | $19.00 | [Bambu Lab](https://us.store.bambulab.com/products/petg-hf) |
 | Tools | Onshape | CAD modeling | Owned (free) | |
-| Tools | Bambu A1 3D Printer | Manufactures the printed parts | Owned | |
+| Tools | Bambu P2S 3D Printer | Manufactures the printed parts | Owned | |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| | | | | **Total: $232.00** |
-
-
+| | | | | **Total: $322.91** |
 
 
 
