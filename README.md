@@ -29,37 +29,35 @@ Things I want to do in the future:
 - I want to try using more gears or getting the price down for future builds
 - 
 ## BOM
+
 | Subsystem | Item | Purpose | Price | Source |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Pan mechanism | Lazy Susan Bearing 4 inch | Carries the rotating pan load (bearing takes the weight, not the motor shaft) | $5.00 | [Amazon](https://www.amazon.com/Turntable-Bearing-Rotating-Cabinet-Profile/dp/B09V2S71J1) |
-| Pan mechanism | TMC2209 V1.3 Stepper Motor Driver | Drives a stepper motor quietly with current control | $30.00 | [Amazon](https://www.amazon.com/BIGTREETECH-Direct-TMC2209-Stepper-Control/dp/B08WZFK9KT) |
-| Pan mechanism | NEMA 17 Stepper Motor | Direct-drive pan axis rotation | $13.00 | [Amazon](https://www.amazon.com/MAKERELE-Stepper-42-48mm-Connector-Printers/dp/B0FP1QQ1NT) |
-| Tilt mechanism | NEMA 17 Stepper Motor L=39mm 10:1 Planetary Gearbox | Geared tilt axis drive (holds the camera against gravity) | $37.00 | [Amazon](https://www.amazon.com/STEPPERONLINE-Nema-Stepper-Motor-Ratio/dp/B0F4CKD1VC) |
-| Tilt mechanism | 608ZZ Ball Bearing (10 pcs) | Supports the tilt pivot shaft | $4.00 | [Amazon](https://www.amazon.com/Bearings-Double-Shielded-Miniature-Skateboard/dp/B07H83VV6B) |
-| Tilt mechanism | 8mm dia 300mm 304 SS Round Rod (2 pcs) | Tilt pivot shaft + zoom support rod (cut to length) | $12.00 | [Amazon](https://www.amazon.com/Etauwe-Diameter-Length-Stainless-Working/dp/B0G78Y8HB4) |
-| Tilt mechanism | 8mm Shaft Lock Collar (10 pcs) | Locks shafts axially in place | $9.00 | [Amazon](https://www.amazon.com/Zeberoxyz-Stainless-Material-Isolation-Accessories/dp/B08SK2LNNV) |
-| Zoom mechanism | M3 M4 M5 Screws & Nuts Assortment Kit | General fasteners across all assemblies | $15.00 | [Amazon](https://www.amazon.com/Hilitchi-510pcs-Stainless-Socket-Assortment/dp/B06XRFKNPQ) |
-| Zoom mechanism | 0.8M 5mm Pinion Motor Gear (3 pcs) | Steel pinion meshes with the lens gear ring to drive zoom | $10.00 | [Amazon](https://www.amazon.com/Fraizoe-RC-0-8M-5mm-3Pcs/dp/B0DYK2Z85B) |
-| Zoom mechanism | 28BYJ-48 ULN2003 5V Stepper Motor (5 pcs) | Drives the zoom ring with repeatable position | $15.00 | [Amazon](https://www.amazon.com/ELEGOO-28BYJ-48-ULN2003-Stepper-Arduino/dp/B01CP18J4A) |
-| Zoom mechanism | SmallRig Seamless Gear Ring (72mm–74mm) | Rubber gear ring grips lens zoom barrel (removable, no marring) | $3.00 | [Amazon](https://www.amazon.com/SmallRig-Seamless-Focus-Gear-Ring/dp/B0986XSTP4) |
-| Battery/wiring | AITRIP ESP32 30-pin USB-C (3-pack + expansion boards) | Microcontrollers for mount + controller (ESP-NOW link) | $20.00 | [Amazon](https://www.amazon.com/dp/B0B82CKB1K) |
-| Battery/wiring | Anker Nano Power Bank 10000mAh 30W | Portable power source for the mount | $30.00 | [Amazon](https://www.amazon.com/Anker-Portable-Charger-Compatible-MacBook/dp/B0C9CJKCH3) |
-| Battery/wiring | ACEIRMC ZY12PDN PD Trigger (2-pack screw terminals) | Pulls fixed 12V from the bank for the stepper rail | $10.00 | [Amazon](https://www.amazon.com/dp/B0CNVQMP6C) |
+| Pan mechanism | Lazy Susan Bearing 4 inch | Carries the rotating pan load (bearing takes the weight, not the motor shaft) | $4.99 | [Amazon](https://www.amazon.com/Turntable-Bearing-Rotating-Cabinet-Profile/dp/B09V2S71J1) |
+| Pan mechanism | TMC2209 V1.3 Stepper Motor Driver (6-pack) | Drives a stepper motor quietly with current control | $29.99 | [Amazon](https://www.amazon.com/BIGTREETECH-Direct-TMC2209-Stepper-Control/dp/B08WZFK9KT) |
+| Pan mechanism | NEMA 17 Stepper Motor (MAKERELE, 42-40mm) | Direct-drive pan axis rotation | $12.99 | [Amazon](https://www.amazon.com/MAKERELE-Stepper-42-48mm-Connector-Printers/dp/B0FP1QQ1NT) |
+| Tilt mechanism | NEMA 17 Stepper Motor L=39mm 10:1 Planetary Gearbox | Geared tilt axis drive (holds the camera against gravity) | $37.99 | [Amazon](https://www.amazon.com/STEPPERONLINE-Nema-Stepper-Motor-Ratio/dp/B0F4CKD1VC) |
+| Tilt mechanism | 608ZZ Ball Bearing (10 pcs) | Supports the tilt pivot shaft | $4.87 | [Amazon](https://www.amazon.com/Bearings-Double-Shielded-Miniature-Skateboard/dp/B07H83VV6B) |
+| Tilt mechanism | 8mm dia 300mm 304 SS Round Rod (2 pcs) | Tilt pivot shaft + zoom support rod (cut to length) | $11.99 | [Amazon](https://www.amazon.com/Etauwe-Diameter-Length-Stainless-Working/dp/B0G78Y8HB4) |
+| Tilt mechanism | 8mm Shaft Lock Collar (10 pcs) | Locks shafts axially in place | $8.89 | [Amazon](https://www.amazon.com/Zeberoxyz-Stainless-Material-Isolation-Accessories/dp/B08SK2LNNV) |
+| Zoom mechanism | M3 M4 M5 Screws & Nuts Assortment Kit (460 pcs) | General fasteners across all assemblies | $13.49 | [Amazon](https://www.amazon.com/Hilitchi-510pcs-Stainless-Socket-Assortment/dp/B06XRFKNPQ) |
+| Zoom mechanism | 0.8M 5mm Pinion Motor Gear 11T (3 pcs) | Steel pinion meshes with the lens gear ring to drive zoom | $9.99 | [Amazon](https://www.amazon.com/Fraizoe-RC-0-8M-5mm-3Pcs/dp/B0DYK2Z85B) |
+| Zoom mechanism | 28BYJ-48 ULN2003 5V Stepper Motor (5 sets) | Drives the zoom ring with repeatable position | $14.99 | [Amazon](https://www.amazon.com/ELEGOO-28BYJ-48-ULN2003-Stepper-Arduino/dp/B01CP18J4A) |
+| Zoom mechanism | SmallRig Seamless Gear Ring (72mm–74mm) | Rubber gear ring grips lens zoom barrel (removable, no marring) | $2.99 | [Amazon](https://www.amazon.com/SmallRig-Seamless-Focus-Gear-Ring/dp/B0986XSTP4) |
+| Battery/wiring | AITRIP ESP32 30-pin USB-C (3-pack + expansion boards) | Microcontrollers for mount + controller (ESP-NOW link) | $9.99 | [Amazon](https://www.amazon.com/dp/B0B82CKB1K) |
+| Battery/wiring | Anker Nano Power Bank 10000mAh 30W | Portable power source for the mount | $49.99 | [Amazon](https://www.amazon.com/Anker-Portable-Charger-Compatible-MacBook/dp/B0C9CJKCH3) |
+| Battery/wiring | ACEIRMC ZY12PDN PD Trigger (2-pack screw terminals) | Pulls fixed 12V from the bank for the stepper rail | $14.99 | [Amazon](https://www.amazon.com/dp/B0CNVQMP6C) |
 | Prototyping | ELEGOO 830-Point Solderless Breadboard (3 pcs) | Solderless prototyping of control/trigger circuits | $8.99 | [Amazon](https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G) |
-| Prototyping | ELEGOO 120pc Dupont Jumper Wires (M/M + M/F + F/F) | Breadboard interconnects in all three pin genders | $6.99 | [Amazon](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) |
-| Camera trigger | NOYITO PC817 1-Channel Optocoupler Module (screw terminals; 2-pack) | Isolated shutter signal, no electrical connection to the borrowed camera | $7.99 | [Amazon](https://www.amazon.com/NOYITO-1-Channel-Optocoupler-Optoelectronic-Anti-Interference/dp/B0B537T73S) |
-| Camera trigger | 2.5mm TRS Male to 3-Pole Screw Terminal Connector | Plugs into S5ii remote port for shutter/record (verify pinout before wiring) | $8.99 | [Amazon](https://www.amazon.com/CablesOnline-3-Screw-Terminal-Connectors-PL-CN22-5/dp/B01J4JLP6K) |
-| Power/filtering | ALLECIN 24-Value Electrolytic Capacitor Assortment Kit | Incl. 100uF/220uF/470uF — one cap across each driver VM absorbs spikes | $12.99 | [Amazon](https://www.amazon.com/ALLECIN-Electrolytic-Capacitor-Assortment-Kit/dp/B0C1VBXCQM) |
+| Prototyping | ELEGOO 120pc Dupont Jumper Wires (M/M + M/F + F/F) | Breadboard interconnects in all three pin genders | $6.98 | [Amazon](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) |
+| Camera trigger | NOYITO PC817 1-Channel Optocoupler Module (screw terminals; 2-pack) | Isolated shutter signal, no electrical connection to the borrowed camera | $6.99 | [Amazon](https://www.amazon.com/NOYITO-1-Channel-Optocoupler-Optoelectronic-Anti-Interference/dp/B0B537T73S) |
+| Camera trigger | CablesOnline 2.5mm TRS Male to 3-Pole Screw Terminal Connector (5-pack) | Plugs into S5ii remote port for shutter/record (verify pinout before wiring) | $16.95 | [Amazon](https://www.amazon.com/CablesOnline-3-Screw-Terminal-Connectors-PL-CN22-5/dp/B01J4JLP6K) |
+| Power/filtering | ALLECIN 24-Value Electrolytic Capacitor Assortment Kit | Incl. 100uF/220uF/470uF — one cap across each driver VM absorbs spikes | $9.99 | [Amazon](https://www.amazon.com/ALLECIN-Electrolytic-Capacitor-Assortment-Kit/dp/B0C1VBXCQM) |
 | Control input | 8BitDo SN30 Pro Bluetooth Gamepad | Bluepad32-compatible name-brand controller for the gamepad path | $44.99 | [Amazon](https://www.amazon.com/Bluetooth-Controller-Compatible-Raspberry-Gaming-Console/dp/B0CSP6TTJJ) |
 | Filament | Black PETG Filament (1kg spool) | Structural printed parts (brackets, cradle, column) | $19.00 | [Bambu Lab](https://us.store.bambulab.com/products/petg-hf) |
 | Tools | Onshape | CAD modeling | Owned (free) | |
 | Tools | Bambu P2S 3D Printer | Manufactures the printed parts | Owned | |
+| Tools | Arca Quick-Release Clamp | Tripod connection (already owned) | Owned | |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| | | | | **Total: $322.91** |
-
-
-
-
+| | | | | **Total: $342.03** |
 
 
 
