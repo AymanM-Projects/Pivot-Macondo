@@ -64,6 +64,8 @@ Things I want to do in the future:
 
 
 # CAD
+The link to my onshape document: https://cad.onshape.com/documents/704bc5fe6bc4690c89ce2bf7/w/60606dae933200bf2d7a1e9c/e/83d6a801d920139ae14113a5?renderMode=0&uiState=6a4411b588f409bdd8e8e3af
+
 ### Individual Parts:
 quick release clamp(for connecting to the camera cage)
 <img width="683" height="463" alt="image" src="https://github.com/user-attachments/assets/cfe6f1e7-7fcd-44c2-ac00-9c3ee46e0fb0" />
