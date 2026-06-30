@@ -88,7 +88,11 @@ zoom(holder for the zoom motor and pinion gear to connect to the rest of the mou
 <img width="968" height="923" alt="image" src="https://github.com/user-attachments/assets/eee50a84-b2af-4d06-9cce-fec3edd7a6de" />
 
 
-
+## What's in this repo
+- [CAD — my designed parts (STEP files)](cad/My_parts)
+- [CAD — imported reference models + GrabCAD links](cad/Imports/intro.md)
+- [Wiring diagram (EasyEDA)](Electronics/wiringdiagram.md)
+- [Bill of Materials](BOM.csv)
 
 
 Refrence(inspiration):https://github.com/geg-tech/biblicallyaccuratekeyboard/blob/main/README.md - I liked the format and the friendly tone, 
