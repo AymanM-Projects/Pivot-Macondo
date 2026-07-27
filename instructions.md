@@ -24,7 +24,7 @@ All custom parts are STEP files in [`My_parts/`](./My_parts/). Imported models (
 - Parts use triangular truss pocketing printed flat-side-down, apex-up
 - The electronics box has no pocketing on purpose
 
-Print pics (one of each build plate with Bambulab settings) :
+Print pics: one of each build plate with Bambulab settings :
 
 1.
 2.
@@ -35,7 +35,7 @@ etc
 
 ---
 
-## 3. Mechanical assembly (after you finished prints and they look liek pics/also pictures willbe provided for every part of the process once built)
+## 3. Mechanical assembly :after you finished prints and they look liek pics/also pictures willbe provided for every part of the process once built.
 
 ### 3.1 Pan base
 1. Bolt the lazy Susan bearing between the tripod base plate and the pan platform. ""need to add bolt sizes"
@@ -71,7 +71,8 @@ The full schematic is in the repo (EasyEDA export). **its in electronics folder 
 - Never wire a motor directly to an ESP32 pin — everything goes through its driver
 
 ### 4.2 Wiring table
-The wiring diagram is here(also located in electronics/wiringdiagram.md):
+The wiring diagram is here(also located in electronics/wiringdiagram.md):<img width="1022" height="422" alt="image" src="https://github.com/user-attachments/assets/0c20d363-3829-49d7-9f1d-b29f9dbdedfd" />
+
 
 ### 4.3 Camera trigger — read this before connecting anything
 The S5II remote port is **not** a simple switch closure. It expects ~2 kΩ across the line for shutter and ~5 kΩ for focus. The PC817 optocoupler module isolates the camera from the ESP32; its VCC pin is left unconnected on purpose. **[VERIFY resistor values against a trusted Panasonic pinout source before first connection — wrong wiring can damage the camera.]** Test the trigger circuit with a multimeter before the 2.5 mm plug ever goes into the camera.
