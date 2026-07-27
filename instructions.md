@@ -1,35 +1,17 @@
 # Pivot — Build & Assembly Instructions
 
-Pivot is a wireless motorized PTZ mount for a Panasonic Lumix S5II + Lumix S 20-60mm lens (1,090 g payload). It does pan, tilt, zoom-ring drive, and photo/record trigger, controlled over ESP-NOW from a second ESP32 up to ~50 m away. Everything structural is 3D printed in PETG. This doc should let anyone reproduce the build.
-
-> Items marked **[VERIFY]** need to be confirmed against the physical build before following blindly. Items marked **[FILL IN]** are placeholders I still need to complete.
+Hi guys here are general assembly instructions but also linked below is a assembly timelapse (pictures included) in assembly instruction
 
 ---
 
-## 1. What you need
+## 1. What you need/materials
 
 ### Tools
-- 3D printer (built on a Bambu Lab P2S, any printer with a ~256 mm bed works) + PETG filament
+- 3D printer (I printed with a Bambulab 2 and engineering plate) + PETG filament (any color works, I also specified where you can use PLA and the cost of each print plate)
 - Soldering iron, solder, heat shrink
 - Metric hex keys, small screwdrivers
-- Multimeter (required — you verify voltages before connecting anything to the camera side)
-
-### Parts
-Full parts list with links and prices is in [`BOM.csv`](./BOM.csv). Summary:
-
-| Subsystem | Part |
-|---|---|
-| Pan motor | NEMA 17 stepper |
-| Tilt motor | NEMA 17 stepper with 10:1 planetary gearbox |
-| Stepper drivers | TMC2209 **[VERIFY — reconcile with A4988 in older diagrams]** |
-| Zoom motor | 28BYJ-48 stepper + ULN2003 driver board |
-| Zoom gear | SmallRig 3293 rubber gear ring (0.8 MOD, fits Ø72–74 mm lens) + steel 0.8M 19T pinion, 5 mm bore |
-| MCU ×2 | 30-pin USB-C ESP-WROOM-32 dev boards (one on mount, one in controller) |
-| Shutter trigger | PC817 optocoupler module + 2.5 mm TRS male-to-screw-terminal connector |
-| Power | Anker Nano 30W 10,000 mAh USB-C PD bank + ZY12PDN PD trigger set to 12 V |
-| Bearing | Lazy Susan bearing (pan base) |
-
-**Do not substitute the 2.5 mm TRS connector with a 3.5 mm or 4-pole part** — it will not fit the S5II remote port.
+- Multimeter
+- all the parts listed in the BOM, listed below
 
 ---
 
@@ -37,10 +19,18 @@ Full parts list with links and prices is in [`BOM.csv`](./BOM.csv). Summary:
 
 All custom parts are STEP files in [`My_parts/`](./My_parts/). Imported models (with credits) are listed in [`Imports/intro.md`](./Imports/intro.md).
 
-- Material: PETG for everything structural
+- Material: PETG for everything structural/PLA when specified
 - Layer height / infill / orientation per part: **[FILL IN — table of each part with print settings and orientation]**
 - Parts use triangular truss pocketing printed flat-side-down, apex-up
-- The electronics box has no pocketing on purpose (keeps debris out) — print it as modeled
+- The electronics box has no pocketing on purpose
+
+Print pics (one of each build plate with Bambulab settings) :
+
+1.
+2.
+3.
+4.
+5.
 
 ---
 
