@@ -31,24 +31,25 @@ Print pics (one of each build plate with Bambulab settings) :
 3.
 4.
 5.
+etc
 
 ---
 
-## 3. Mechanical assembly
+## 3. Mechanical assembly (after you finished prints and they look liek pics/also pictures willbe provided for every part of the process once built)
 
 ### 3.1 Pan base
-1. Bolt the lazy Susan bearing between the tripod base plate and the pan platform. **[VERIFY bolt sizes]**
-2. Mount the pan NEMA 17 in the column. **[FILL IN — how the motor drives the platform: direct/geared, and fastener details]**
+1. Bolt the lazy Susan bearing between the tripod base plate and the pan platform. ""need to add bolt sizes"
+2. Mount the pan NEMA 17 in the column. **havent fully finished the fastener**
 3. The base mounts to any standard tripod via the 1/4"-20 thread.
 
 ### 3.2 Tilt yoke
 1. Assemble the yoke arms onto the pan platform.
 2. Mount the tilt NEMA 17 + planetary gearbox on the drive side.
-3. Set the camera cradle so the tilt pivot passes through the camera's center of gravity — this is what keeps holding torque low. **[FILL IN — CG reference measurement for S5II + 20-60mm]**
-4. Sweep tilt ±45° by hand and check nothing collides before wiring the motor. **[VERIFY — interference sweep and Ø9 vs Ø11 through-hole on drive side]**
+3. Set the camera cradle so the tilt pivot passes through the camera's center of gravity. 
+4. Sweep tilt ±45° by hand and check nothing collides before wiring the motor. **this is just for testing**
 
 ### 3.3 Zoom drive
-1. Wrap the SmallRig 3293 gear ring around the lens zoom ring. Friction fit only — nothing adhesive ever touches the lens.
+1. Wrap the SmallRig 3293 gear ring around the lens zoom ring. Friction fit only.
 2. Measure the installed ring OD before trusting the bracket spacing (center distance is ~46.8 mm provisional).
 3. Fix the 19T steel pinion on the 28BYJ-48 shaft (set screw on the flat).
 4. Mount the zoom bracket and use the vertical slots (±1.5 mm) to set gear mesh: snug, no binding, no skipping. The rubber ring slipping under overload is intentional — it's the torque fuse.
@@ -60,7 +61,7 @@ Camera mounts by its 1/4"-20 socket into the cradle. **[FILL IN — cage/cradle 
 
 ## 4. Electronics
 
-The full schematic is in the repo (EasyEDA export). **[FILL IN — link the exact file]**
+The full schematic is in the repo (EasyEDA export). **its in electronics folder in the repo**
 
 ### 4.1 Power
 - USB-C PD port → ZY12PDN trigger fixed at **12 V** → stepper motor rail
@@ -70,7 +71,7 @@ The full schematic is in the repo (EasyEDA export). **[FILL IN — link the exac
 - Never wire a motor directly to an ESP32 pin — everything goes through its driver
 
 ### 4.2 Wiring table
-**[FILL IN — pin-by-pin table from the EasyEDA schematic: driver STEP/DIR/EN pins, ULN2003 IN1-4, optocoupler input, with ESP32 GPIO numbers]**
+The wiring diagram is here(also located in electronics/wiringdiagram.md):
 
 ### 4.3 Camera trigger — read this before connecting anything
 The S5II remote port is **not** a simple switch closure. It expects ~2 kΩ across the line for shutter and ~5 kΩ for focus. The PC817 optocoupler module isolates the camera from the ESP32; its VCC pin is left unconnected on purpose. **[VERIFY resistor values against a trusted Panasonic pinout source before first connection — wrong wiring can damage the camera.]** Test the trigger circuit with a multimeter before the 2.5 mm plug ever goes into the camera.
